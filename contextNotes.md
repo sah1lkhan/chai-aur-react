@@ -137,6 +137,13 @@ export default {
 }
 
 
+in later v4 Tailwinde version tailwindcss Config is removed ... 
+for working use this ===>
+paste this in the index.css or root css  ⬇️⬇️
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
 
 
 ```
